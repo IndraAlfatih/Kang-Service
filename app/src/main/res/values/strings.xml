@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kang Service</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Login gagal, cek ulang email dan password anda!</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string-array name="kangservice">
+        <item>Pilih Kang Service</item>
+        <item>AC Anugerah</item>
+        <item>Pak Indra</item>
+    </string-array>
+</resources>

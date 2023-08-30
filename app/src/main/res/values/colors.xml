@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a52b2e</color>
+    <color name="colorPrimaryDark">#7b2021</color>
+    <color name="tabtextcolor">#d3d3d3</color>
+    <color name="tabindicatorcolor">#ffffff</color>
+    <color name="colorAccent">#a52b2e</color>
+    <color name="white">#ffffff</color>
+    <color name="darkturqoise">#00ced1</color>
+    <color name="silver">#d7d7d7</color>
+    <color name="transparent">#00000000</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Masuk Ke dalam Aplikasi Sebagai :"
+                android:textSize="18dp"
+                android:paddingBottom="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="140dp"
+                android:onClick="kangservice"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="KangSERVICE"
+                android:layout_marginRight="20dp"
+                android:id="@+id/btnkangservice"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/buttonstylered"
+                android:textColor="@color/white"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:onClick="customer"
+                android:layout_gravity="center"
+                android:text="customer"
+                android:id="@+id/btncustomer"
+                android:fontFamily="sans-serif-smallcaps"
+                android:background="@drawable/buttonstylered"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

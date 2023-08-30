@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgView"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="90dp"
+            android:text="Merk HP"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/merkhp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="90dp"
+            android:paddingTop="20dp"
+            android:text="Versi HP"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/versihp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="90dp"
+            android:paddingTop="40dp"
+            android:text="Kerusakan HP"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/kerusakanhp"/>
+    </RelativeLayout>
+</LinearLayout>

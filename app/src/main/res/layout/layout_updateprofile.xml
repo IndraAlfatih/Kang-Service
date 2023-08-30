@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:text="UPDATE PROFILE"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/uppicprofil"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/profile"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Tap to change photo"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/silver">
+        <EditText
+            android:id="@+id/editusername"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColorHint="#7b2021"/>
+        <EditText
+            android:id="@+id/editemail"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:enabled="false"
+            android:textColorHint="#7b2021"/>
+        <EditText
+            android:id="@+id/editnomor"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textColorHint="#7b2021"/>
+        <EditText
+            android:id="@+id/editalamat"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_send_black_24dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textColorHint="#7b2021"/>
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_marginTop="30dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepink"
+            android:text="Update Profile"
+            android:textColor="#7b2021"
+            android:drawableRight="@drawable/ic_send_black_24dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
